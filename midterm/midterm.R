@@ -10,8 +10,33 @@ stringsAsFactors = FALSE
 
 # change column names
 columnNames  <- c( # nolint
-    ""
+    "TrackId",
+    "TrackName",
+    "TrackArtist",
+    "TrackPopularity",
+    "TrackAlbumId",
+    "TrackAlbumName",
+    "TrackAlbumReleaseDate",
+    "PlayListId",
+    "PlaylistName",
+    "PlaylistGenre",
+    "PlaylistSubGenre",
+    "Danceability",
+    "Energy",
+    "Key",
+    "Loudness",
+    "Mode",
+    "Speechiness",
+    "Acousticness",
+    "Instrumentalness",
+    "Liveliness",
+    "Valence",
+    "Tempo",
+    "Duration_ms"
 )
+
+colnames(data) <- columnNames
+
 
 head(data, 5)
 tail(data, 5)
