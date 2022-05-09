@@ -1,4 +1,6 @@
-data = read.csv(file = "GlobalMusicData.csv",
+setwd("./midterm")
+getwd()
+data = read.csv(file = "./data/GlobalMusicData.csv",
 stringsAsFactors = FALSE
 )
 
@@ -18,3 +20,4 @@ NoDupes = data[!duplicated(as.list(data))]
 FindDupes = data[duplicated(as.list(data))]
 head(FindDupes)
 head(NoDupes)
+
