@@ -8,7 +8,7 @@ data <- read.csv(file = "./data/GlobalMusicData.csv",
 stringsAsFactors = FALSE
 )
 
-# change column names
+# create column names
 columnNames  <- c( # nolint
     "TrackId",
     "TrackName",
@@ -36,13 +36,20 @@ columnNames  <- c( # nolint
 )
 
 colnames(data) <- columnNames
+colnames(data)
 
 
+# class creation
+
+#top and bottom 5
 head(data, 5)
 tail(data, 5)
 
-colnames(data)
+
+
 colSums(is.na(data))
+which(is.na(data))
+
 
 str(data)
 
@@ -58,4 +65,4 @@ head(NoDupes)
 colSums(is.na(data))
 
 
-which(is.na(data))
+
