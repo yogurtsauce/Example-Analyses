@@ -1,3 +1,7 @@
+#libraries
+library(tidyverse)
+
+#initialize the file and the working directory
 setwd("./midterm")
 getwd()
 data = read.csv(file = "./data/GlobalMusicData.csv",
