@@ -1,5 +1,7 @@
 Global Music Analysis
 ================
 
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+[github markdown
+cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+## Introdution
