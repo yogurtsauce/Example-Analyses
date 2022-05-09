@@ -1,6 +1,9 @@
 #libraries
 library(tidyverse)
 
+install.packages('IRkernel')
+IRkernel::installspec()
+
 #initialize the file and the working directory
 setwd("./midterm")
 getwd()
